@@ -1,12 +1,6 @@
-score = int(input("성적을 입력하시오: "))
+temperature = int(input("현재 온도 "))
 
-if score >= 90:
-    print("A Grade")
-elif score >= 80:
-    print("B Grade")
-elif score >= 70:
-    print("D Grade")
-elif score >= 60:
-    print("D Grade")
+if temperature >= 25:
+    print("반바지 추천")
 else:
-    print("F Grade")
+    print("긴바지 추천")

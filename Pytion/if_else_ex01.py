@@ -1,12 +1,7 @@
-score = int(input("성적을 입력하시오: "))
+num1 = int(input("첫 번째 정수 입력"))
+num2 = int(input("두 번째 정수 입력"))
 
-if score >= 90:
-    print("A Grade")
-elif score >= 80:
-    print("B Grade")
-elif score >= 70:
-    print("D Grade")
-elif score >= 60:
-    print("D Grade")
+if num1 % num2 == 0 and num1 != 0 and num2 != 0:
+    print("약수 입니다.")
 else:
-    print("F Grade")
+    print("약수가 아닙니다.")

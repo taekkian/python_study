@@ -1,12 +1,7 @@
-score = int(input("성적을 입력하시오: "))
+radius = float(input("원의 반지름을 입력하시오"))
 
-if score >= 90:
-    print("A Grade")
-elif score >= 80:
-    print("B Grade")
-elif score >= 70:
-    print("D Grade")
-elif score >= 60:
-    print("D Grade")
+if radius < 0:
+    print("잘못된 입력값입니다.")
 else:
-    print("F Grade")
+    area = 3.14*radius**2
+    print(f"입력된 반지름 {radius}의 넓이는 {area}입니다.")
