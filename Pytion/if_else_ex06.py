@@ -11,7 +11,7 @@ for sel in rpc:
 if is_wrong == False:
     com = rpc[random.randint(0,2)]
 
-    # 1:가위, 2:바위, 3:보
+    # 0:바위, 1:보, 2:가위
     print(f"user is {user} and com is {com}")
     if user == com:
         print('draw')
@@ -23,9 +23,9 @@ if is_wrong == False:
         print('You lose')
     elif user == 'paper' and com == 'rock':
         print('You win')
-    elif user == 'rock' and com == 'paper':
+    elif user == 'scissors' and com == 'rock':
         print('You lose')
-    elif user == 'rock' and com == 'scissors':
+    elif user == 'scissors' and com == 'paper':
         print('You win')
     else:
         print('wrong')
