@@ -1,3 +1,4 @@
+# 사용자로부터 4자리의 정수를 받아서 자리수의 합을 계산하는 프로그램
 number = int(input("4자리 정수를 입력하시오 : "))
 input_number = number
 x1 = number // 1000

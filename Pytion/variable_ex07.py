@@ -1,4 +1,4 @@
-# # 7
+# 사용자로부터 두 점의 좌표(x1, y1)과 (x2, y2)를 입력받아서 두 점 사이의 거리를 계산
 pos_x1 = float(input("x1 좌표를 입력하시오 : "))
 pos_y1 = float(input("y1 좌표를 입력하시오 : "))
 pos_x2 = float(input("x2 좌표를 입력하시오 : "))
